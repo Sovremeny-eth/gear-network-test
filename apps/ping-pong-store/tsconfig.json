@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "module": "ES2020",
+    "target": "ES2022",
+    "strict": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2020"],
+    "skipLibCheck": true,
+    "types": ["node"],
+    "outDir": ".build/js",
+    "sourceMap": true,
+    "newLine": "LF"
+  },
+  "include": ["src/**/*"]
+}
